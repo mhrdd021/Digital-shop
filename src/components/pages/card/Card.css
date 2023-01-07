@@ -1,0 +1,48 @@
+.card{
+    background: linear-gradient(#ffffff, #dde3f965);
+    border: none;
+    text-align: center;
+}
+.card img{
+    transform: scale(1.6);
+    margin: 0 auto 4rem;
+}
+.card3{
+    margin-top: 4rem;
+    background-image: url("../../../assets/iwatch1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.iphone8{
+    transform: scale(1.45) !important;
+}
+.cta_container{
+    background: #6c757d45;
+}
+.MuiBox-root{
+    margin: 0 auto;
+}
+.MuiPaper-root{
+    background: rgba(255, 255, 255, 0.405) !important;
+    border-radius: 8px !important;
+}
+.css-1jabshk{
+    height: auto !important;
+}
+@media screen and (max-width:1000px) {
+    .container{
+        width: 90%;
+    }
+}
+@media screen and (max-width:700px) {
+    .card_container{
+        display: block;
+    }
+    .card_container div{
+        margin-bottom: 4rem;
+    }
+    .cta_container{
+        width: 90%;
+    }
+}

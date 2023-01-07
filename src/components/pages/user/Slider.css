@@ -1,0 +1,12 @@
+.slider{
+    width: 90% !important;
+    border-radius: 10px;
+    border: 2px solid #cac3cf5d;
+}
+.slider img{
+    box-shadow: 0 12px 20px #E6E2F9;
+}
+.MuiBox-root{
+    width: fit-content;
+    margin: 0 auto;
+}
